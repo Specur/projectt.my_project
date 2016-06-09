@@ -6,8 +6,13 @@ import javax.swing.JPanel;
 //model
 
 public abstract class Obserwator extends JFrame {
-	//ogalda obserwowanego i powiadamia COmponenty
-public abstract void set_points(int point);
 	
+public abstract void set_points(int point);
+
+public  abstract void set_all_points(int point);
+
+public abstract int get_points();
+
+public abstract int get_all_points();
 
 }

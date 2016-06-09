@@ -75,6 +75,26 @@ public class Leaf extends Component {
 		// TODO Auto-generated method stub
 		
 	}
+	@Override
+	public void podsumuj(Model_1 podsum, Strategia strategia) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void set_all_points(int point) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public int get_points() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public int get_all_points() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 
 

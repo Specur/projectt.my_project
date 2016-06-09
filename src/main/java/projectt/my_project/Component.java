@@ -16,6 +16,10 @@ public abstract class Component extends Obserwator {
 	protected Object button;
 	public abstract JButton dodaj(int a , int b , int c , int d ,ActionListener e,int g);
 	public abstract void dodaj(int a, int b, int c, int d,ActionListener e);
+	
+	
+	public abstract void podsumuj(Model_1 podsum , Strategia strategia);
+	
 	public void change_color() {
 		// TODO Auto-generated method stub
 		

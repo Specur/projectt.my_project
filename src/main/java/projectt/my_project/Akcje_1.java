@@ -6,7 +6,7 @@ import java.text.DateFormat;
 import java.util.Date;
 
 //kontroler
-public class Akcje_1 implements AkcjeInterface {
+public class Akcje_1 extends Obserwowany implements AkcjeInterface  {
 	ActionListener action;
 	
 	
